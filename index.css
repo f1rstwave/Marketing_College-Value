@@ -1,6 +1,53 @@
+
+/* center align page */
+
+.header-img {
+    width: 50%;
+}
+/* flexbox is being rude, also header img won't get any shorter for some reason */
+
 .intro-quote {
     font-family: 'Segoe UI';
     color: skyblue;
-    text-align: center;
+    font-weight: 10;
+    font-size: 1.6rem;
+    margin: 0% 10% 0% 10%;
+}
 
+.intro-quote-link {
+    color:skyblue;
+    background-color: white;
+    font-size: 1.2rem;
+    margin-left: 45%;
+    font-family: 'Segoe UI';
+    text-decoration: none;
+    border: 1px dashed skyblue;
+    padding: 0 5% 0 5%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 5% 8% 2% 0%;
+    padding: 3% 6%;
+    font-family: 'Segoe UI';
+    text-align: center;
+    border-radius: 4%;
+}
+
+.card-img {
+    height: 14rem;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
