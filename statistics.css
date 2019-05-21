@@ -1,8 +1,17 @@
+
+header img {
+    height: 25rem;
+    width: 53rem;
+    margin: 2% 0 2% 17%;
+    border-radius: 10px;
+}
+
 header {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
+
 
     /* Not sure how to style Back to Top button */
     /* #top {
@@ -40,14 +49,14 @@ nav a:hover {
 .intro-quote {
     font-family: 'Segoe UI';
     text-align: center;
-    color: skyblue;
+    color: black;
     font-weight: 10;
     font-size: 1.6rem;
     margin: 0% 10% 0% 10%;
 }
 
 .gates-foundation-link {
-    color: rgb(36, 161, 211);
+    color: rgb(11, 116, 158);
     text-decoration: none;
 }
 
@@ -56,22 +65,22 @@ nav a:hover {
 }
 
 .intro-quote-link {
-    color:rgb(36, 161, 211);
     font-size: 1.2rem;
     font-family: 'Segoe UI';
     text-decoration: none;
     text-align: center;
-    border: 2px solid rgb(36, 161, 211);
     margin: 1% 40%;
     padding: .3rem 0;
     border-radius: 10px;
     font-weight: bold;
+    border: 2px solid black;
+    color: black;
 }
 
 .intro-quote-link:hover {
-    border: 2px solid rgb(36, 161, 211);
     font-weight: bold;
-    background-color: rgb(231, 238, 247);
+    background-color: rgb(135, 193, 216);
+    border: 2px solid black;
 }
 
 .card {
@@ -79,7 +88,7 @@ nav a:hover {
     flex-direction: column;
     border: 1px solid rgb(11, 116, 158);
     padding: 3%;
-    margin: 5% 1%;
+    margin: 3% 1% 3% 1%;
     font-family: 'Segoe UI';
     text-align: center;
     border-radius: 4%;
