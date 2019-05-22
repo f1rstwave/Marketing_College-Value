@@ -1,3 +1,59 @@
+body {
+    box-sizing: border-box;
+}
+
+.contain {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar-brand {
+    font-family: 'Horizon';
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+#logo {
+    font-family: 'Horizon';
+    font-size: 7rem;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+
+#description {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
 .d-block {
     height: 50vh !important;
+}
+
+.carousel-inner {
+    border-radius: 10px !important;
+    border: 1px solid black;
+}
+
+.container {
+    margin: 20px 0 20px 0;
+}
+
+#form {
+    background-color: aliceblue;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+button {
+    margin-bottom: 7px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
