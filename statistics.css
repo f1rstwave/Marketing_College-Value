@@ -7,8 +7,37 @@ header {
 
 nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right: 20%;
 }
+
+nav a {
+    margin: 0 1%;
+    color: gray;
+    text-decoration: none;
+    font-family: "Segoe UI";
+    font-size: 1.1rem;
+}
+
+
+/* MEDIA QUERY */
+@media (max-width: 500px) {
+    nav a {
+        padding: 1%;
+        margin: 0 2% 3% 2%;
+    }
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* COPY/PASTED FROM LANDING PAGE */
+/* .navbar-brand {
+    font-family: 'Horizon';
+    font-style: oblique;
+    font-weight: bolder;
+} */
 
 header img {
     height: 25rem;
@@ -33,31 +62,6 @@ header img {
         width: 24rem;
         margin-left: 10%;
     }
-}
-
-nav a {
-    font-family: 'Segoe UI';
-    padding: 0 4%;
-    margin: 0 4%;
-    color: black;
-    border: .09rem solid black;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: .5rem;
-}
-
-
-/* MEDIA QUERY */
-@media (max-width: 500px) {
-    nav a {
-        padding: 1%;
-        margin: 0 2% 3% 2%;
-    }
-} 
-
-nav a:hover {
-    background-color: rgb(135, 193, 216);
-    font-weight: bold;
 }
 
 .intro-quote {
