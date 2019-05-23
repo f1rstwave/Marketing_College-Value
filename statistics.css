@@ -12,7 +12,6 @@ nav {
 }
 
 nav a {
-    float: right;
     margin: 0 1%;
     color: gray;
     text-decoration: none;
@@ -20,37 +19,6 @@ nav a {
     font-size: 1.1rem;
 }
 
-.dropdown {
-    float: right;
-}
-
-.dropdown .dropbtn {
-    font-size: 1.1rem; 
-    border: none;
-    outline: none;
-    color: gray;
-    background-color: white;
-    font-family: 'Segoe UI';
-    margin: 0;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
 
 /* MEDIA QUERY */
 @media (max-width: 500px) {
@@ -63,6 +31,13 @@ nav a {
 nav a:hover {
     color: black;
 }
+
+/* COPY/PASTED FROM LANDING PAGE */
+/* .navbar-brand {
+    font-family: 'Horizon';
+    font-style: oblique;
+    font-weight: bolder;
+} */
 
 header img {
     height: 25rem;
