@@ -1,5 +1,28 @@
-body {
-    box-sizing: border-box;
+.bg-img::before {
+    background-image: url("images/black-and-white-bookcase-books-256453.jpg");
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    height: 130%;
+    z-index: -2;
+    opacity: 0.6;
+}
+
+.bg-img::after {
+    background-color: lightgoldenrodyellow;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 130%;
+    z-index: -1;
+    opacity: 0.1;
 }
 
 .contain {
@@ -29,7 +52,7 @@ body {
 .heading {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
-    background-image: url("images/change-close-up-coins-210698.jpg");
+    /* background-image: url("images/change-close-up-coins-210698.jpg"); */
 }
 
 .d-block {
