@@ -1,6 +1,7 @@
 .bg-img::before {
     background-image: url("images/black-and-white-bookcase-books-256453.jpg");
     background-size: cover;
+    filter: blur(2.8px);
     content: "";
     display: block;
     position: absolute;
@@ -13,7 +14,7 @@
 }
 
 .bg-img::after {
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(181, 181, 165);
     content: "";
     display: block;
     position: absolute;
@@ -29,6 +30,13 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.navbar {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e1e1e1 !important;
 }
 
 .navbar-brand {
@@ -47,12 +55,35 @@
     font-style: oblique;
     font-weight: bold;
     text-align: center;
+    color: black;
+    margin-top: 20px;
 }
 
 .heading {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     /* background-image: url("images/change-close-up-coins-210698.jpg"); */
+}
+
+.description {
+    font-style: normal;
+    opacity: 1 !important;
+    z-index: 1;
+    color: azure;
+}
+
+#slogan {
+    font-style: oblique;
+    font-family: monospace;
+}
+
+.transparent-box {
+    background-color: rgba(162, 56, 56, 0.68);
+    height: 150px;
+    margin: 10px 0 30px 0;
+    padding-top: 40px;
+    z-index: -1;
+    text-align: center;
 }
 
 .d-block {
@@ -64,12 +95,20 @@
     border: 1px solid black;
 }
 
+.carousel-caption {
+    color: rgb(239, 245, 245);
+    background-color: rgba(22, 52, 62, 0.72);
+    left: 0;
+    right: 0;
+}
+
 .container {
     margin: 20px 0 20px 0;
 }
 
 #form {
-    background-color: aliceblue;
+    background-color: rgb(191, 191, 199);
+    border-radius: 10px;
 }
 
 .card {
@@ -84,4 +123,7 @@ button {
 footer {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+    color: rgb(241, 249, 249);
+    font-weight: 500;
 }
