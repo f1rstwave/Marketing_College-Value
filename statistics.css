@@ -58,7 +58,7 @@ nav a:hover {
 
     header img {
         height: 18rem;
-        width: 37%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -193,28 +193,27 @@ nav a:hover {
 
 /* MEDIA QUERY */
 @media (max-width: 500px) {
-    .card-img {
-        display: none;
-} 
+        .card-img {
+            display: none;
+    } 
 
 
-.card-btn {
-    border: 1px solid black;
-    padding: .3rem 1rem;
-    color: black;
-    border-radius: 10px;
-    text-decoration: none;
+    .card-btn {
+        border: 1px solid black;
+        padding: .3rem 1rem;
+        color: black;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+
+    .card-btn:hover {
+        font-weight: bold;
+        border: 2px solid black;
+        background-color: rgb(135, 193, 216);
+    }
+
+
+    .card-title {
+        width: 105%;
+    }
 }
-
-.card-btn:hover {
-    font-weight: bold;
-    border: 2px solid black);
-    background-color: rgb(135, 193, 216);
-}
-
-
-.card-title {
-    width: 105%;
-}
-
-
