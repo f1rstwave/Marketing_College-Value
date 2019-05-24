@@ -31,6 +31,12 @@
     margin-right: auto;
 }
 
+.navbar {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .navbar-brand {
     font-family: 'Horizon';
     font-style: oblique;
@@ -53,6 +59,21 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: left;
     /* background-image: url("images/change-close-up-coins-210698.jpg"); */
+}
+
+.description {
+   opacity: .9 !important;
+   z-index: 1;
+}
+
+.transparent-box {
+    background-color: blueviolet;
+    height: 100px;
+    margin: 10px 0 30px 0;
+    padding-top: 15px;
+    z-index: -1;
+    opacity: .6;
+    text-align: center;
 }
 
 .d-block {
