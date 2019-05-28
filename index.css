@@ -74,7 +74,6 @@
     opacity: 1 !important;
     z-index: 1;
     color: azure;
-    font-size: 
 }
 
 #slogan {
@@ -179,5 +178,14 @@ footer {
     }
     #slogan {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .description {
+        font-size: .98rem;
+    }
+    #slogan {
+        font-size: 1.2rem;
     }
 }
